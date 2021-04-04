@@ -122,7 +122,7 @@ function GetMedian(){
 
 ### 解法三：最大堆+最小堆
 
-- **时间复杂度：O(NlogN)**
+- **时间复杂度：O(logN)**
 
 对于这种动态数据，堆是极好的解决方案。
 
@@ -144,15 +144,11 @@ function GetMedian(){
 还需要注意的是，Javascript中没有堆，需要自己实现。
 
 ```js
-const defaultCmp = (x, y) => x > y; // 默认是最大堆
-
+// <-- 堆的实现 start -->
+const defaultCmp = (x, y) => (x > y); // 默认是最大堆
 const swap = (arr, i, j) => ([arr[i], arr[j]] = [arr[j], arr[i]]);
 
 class Heap {
-    /**
-     * 默认是最大堆
-     * @param {Function} cmp
-     */
     constructor(cmp = defaultCmp) {
         this.container = [];
         this.cmp = cmp;
@@ -160,7 +156,6 @@ class Heap {
 
     insert(data) {
         const { container, cmp } = this;
-
         container.push(data);
         let index = container.length - 1;
         while (index) {
@@ -175,38 +170,36 @@ class Heap {
 
     extract() {
         const { container, cmp } = this;
-        if (!container.length) {
+        const length = container.length;
+        if (!length) {
             return null;
         }
-
-        swap(container, 0, container.length - 1);
-        const res = container.pop();
-        const length = container.length;
-        let index = 0,
-            exchange = index * 2 + 1;
-
+        swap(container, 0, length - 1);
+        container.pop();
+        let index = 0, exchange = index * 2 + 1;
         while (exchange < length) {
-            // 以最大堆的情况来说：如果有右节点，并且右节点的值大于左节点的值
             let right = index * 2 + 2;
+            // 以最大堆的情况来说：如果有右节点，并且右节点的值大于左节点的值
             if (right < length && cmp(container[right], container[exchange])) {
                 exchange = right;
             }
             if (!cmp(container[exchange], container[index])) {
-                break;
+                return;
             }
             swap(container, exchange, index);
             index = exchange;
             exchange = index * 2 + 1;
         }
-
-        return res;
     }
 
     top() {
-        if (this.container.length) return this.container[0];
+        if (this.container.length) {
+            return this.container[0];
+        }
         return null;
     }
 }
+// <-- 堆的实现 end -->
 
 /**
  * initialize your data structure here.
