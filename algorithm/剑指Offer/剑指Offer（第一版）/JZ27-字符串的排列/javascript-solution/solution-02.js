@@ -13,7 +13,7 @@ function Permutation(str)
     const res = [];
     __permutation(str.split(""), 0, res);
     res.sort();
-    return Array.from(new Set(res));
+    return res;
 }
 
 function __permutation(str, start, res) {
