@@ -6,19 +6,15 @@
 function Find(target, array)
 {
     // write code here
-    for (let i = 0; i < array.length; i++) {
-        if (target == array[i][array[i].length - 1]) {
+    let row = 0, col = array[0].length - 1;
+    while (row < array.length && col >= 0) {
+        if (array[row][col] == target) {
             return true;
-        } else if (target < array[i][array[i].length - 1]) {
-            for (let j = array[i].length - 2; j >= 0; j--) {
-                if (target == array[i][j]) {
-                    return true;
-                } else if (target > array[i][j]) {
-                    break;
-                }
-            }
+        } else if (array[row][col] < target) {
+            row++;
         } else {
-            continue;
+            col--;
         }
     }
+    return false;
 }
