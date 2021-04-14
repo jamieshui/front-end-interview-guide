@@ -4,6 +4,7 @@
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | 0047 | [Permutations II](https://leetcode.com/problems/permutations-ii/) | [JavaScript](./0001-0500/0047-Permutations-II/javascript-solution) |
 | 0053 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [JavaScript](./0001-0500/0053-Maximum-Subarray/javascript-solution) |
+| 0070 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [JavaScript](./0001-0500/0070-Climbing-Stairs/javascript-solution) |
 | 0105 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [JavaScript](./0001-0500/0105-Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal/javascript-solution) |
 | 0153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [JavaScript](./0001-0500/0153-Find-Minimum-in-Rotated-Sorted-Array/javascript-solution) |
 | 0154 | [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) | [JavaScript](./0001-0500/0154-Find-Minimum-in-Rotated-Sorted-Array-II/javascript-solution) |
