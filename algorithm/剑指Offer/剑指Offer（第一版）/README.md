@@ -5,6 +5,7 @@
 | ID   | Problem                                                      | Solution                                                     |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | JZ01 | [二维数组中的查找](https://www.nowcoder.com/practice/abc3fe2ce8e146608e868a70efebf62e?tpId=13&tqId=11154&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking&tab=answerKey) | [JavaScript](./JZ01-二维数组中的查找/javascript-solution)    |
+| JZ02 | [替换空格](https://www.nowcoder.com/practice/0e26e5551f2b489b9f58bc83aa4b6c68?tpId=13&tqId=11155&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking&tab=answerKey) | [JavaScript](./JZ02-替换空格/javascript-solution)            |
 | JZ04 | [重建二叉树](https://www.nowcoder.com/practice/8a19cbe657394eeaac2f6ea9b0f6fcf6?tpId=13&tqId=11157&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking&tab=answerKey) | [JavaScript](./JZ04-重建二叉树/javascript-solution)          |
 | JZ05 | [用两个栈实现队列](https://www.nowcoder.com/practice/54275ddae22f475981afa2244dd448c6?tpId=13&tqId=11158&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking&tab=answerKey) | [JavaScript](./JZ05-用两个栈实现队列/javascript-solution)    |
 | JZ06 | [旋转数组的最小数字](https://www.nowcoder.com/practice/9f3231a991af4f55b95579b44b7a01ba?tpId=13&tqId=11159&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking&tab=answerKey) | [JavaScript](./JZ06-旋转数组的最小数字/javascript-solution)  |
