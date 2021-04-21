@@ -22,7 +22,7 @@
     if (pattern[1] === '*') {
         return match(str, pattern.slice(2)) 
             || (str.length && (str[0] === pattern[0] || pattern[0] === '.'))
-            && match(str.slice(1), patternattern);
+            && match(str.slice(1), pattern);
     } else {
         return str.length
             && (str[0] === pattern[0] || pattern[0] === '.')
