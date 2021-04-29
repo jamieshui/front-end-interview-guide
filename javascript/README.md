@@ -266,7 +266,7 @@ class myJQuery extends jQuery{
 > 自由变量的查找，是在函数定义的地方，向上级作用域查找，而不是在执行的地方。
 
 - 闭包的用途：
-  1. 使我们在函数外部能够访问到函数内部的变量。通过使用闭包，我们可以通过在外部调用闭包函数，从而在外部访问到函数内部的变量，可以使用这种方法来创建私有变量。
+  1. 使我们在函数外部能够访问到函数内部的变量，即隐藏数据只提供API。通过使用闭包，我们可以通过在外部调用闭包函数，从而在外部访问到函数内部的变量，可以使用这种方法来创建私有变量。
   2. 使已经运行结束的函数上下文中的变量对象继续留在内存中，因为闭包函数保留了这个变量对象的引用，所以这个变量对象不会被回收。
 
 ## this 有几种赋值情况
@@ -278,6 +278,10 @@ class myJQuery extends jQuery{
 3. 作为对象方法被调用
 4. 在class方法中调用
 5. 箭头函数
+
+> **ATTENTION**
+>
+> this的取值是在函数执行的时候确定的，并不是在函数定义的时候。
 
 ## 手写call、apply及bind函数
 
@@ -359,6 +363,76 @@ Function.prototype.myBind = function (context) {
 };
 ```
 
-## 作用域相关的面试题
+# JS基础-异步
 
-## 补充 - 原型中的 this
+## 同步和异步有何不用
+
+### 回答
+
+简而言之，同步会阻塞代码执行，异步不会阻塞代码执行。
+
+- 同步：当一个进程在执行某个请求的时候，如果这个请求需要等待一段时间才能返回，那么这个进程会**一直等待下去**，直到消息返回为止再继续向下执行。
+- 异步：当一个进程在执行某个请求的时候，如果这个请求需要等待一段时间才能返回，这个时候进程会**继续往下执行**，不会阻塞等待消息的返回，当消息返回时系统再通知进程进行处理。
+
+### 相关知识
+
+- 单线程与异步
+  - JS是单线程语言，只能同时做一件事
+  - 浏览器和nodejs已支持JS启动进程，如web worker
+  - JS和DOM渲染共用同一个线程，因为JS可修改DOM结构
+  - 异步主要用于处理单线程问题（网络请求、定时任务）
+
+## 异步的应用场景有哪些
+
+### 回答
+
+- 网络请求，如ajax图片加载
+- 定时任务，如setTimeout
+
+## 手写Promise加载一张图片
+
+### 回答
+
+```js
+function loadImg(src) {
+    return new Promise((resolve, reject) => {
+      const img = document.createElement('img')
+      img.onload = () => {
+        resolve(img)
+      }
+      img.onerror = () => {
+        const err = new Error(`图片加载失败 ${src}`)
+        reject(err)
+      }
+      img.src = src
+    })
+}
+
+// const url = 'https://img.mukewang.com/user/5a9fc8070001a82402060220-140-140.jpg'
+// loadImg(url).then(img => {
+//   console.log(img.width)
+//   return img
+// }).then(img => {
+//   console.log(img.height)
+// }).catch(ex => console.error(ex))
+
+const url1 = 'https://img.mukewang.com/user/5a9fc8070001a82402060220-140-140.jpg'
+const url2 = 'https://img.mukewang.com/user/5a9fc8070001a82402060220-100-100.jpg'
+
+loadImg(url1).then(img1 => {
+  console.log(img1.width)
+  return img1 // 普通对象
+}).then(img1 => {
+  console.log(img1.height)
+  return loadImg(url2) // promise 实例
+}).then(img2 => {
+  console.log(img2.width)
+  return img2
+}).then(img2 => {
+  console.log(img2.height)
+}).catch(ex => console.error(ex))
+```
+
+### 相关知识
+
+- Promise可解决callback hell问题
