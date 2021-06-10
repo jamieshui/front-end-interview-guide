@@ -5,6 +5,7 @@
 | 0002 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [JavaScript](./0001-0500/0002-add-two-numbers/javascript-solution) |
 | 0020 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [JavaScript](./0001-0500/0020-valid-parentheses/javascript-solution) |
 | 0083 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [JavaScript](./0001-0500/0083-remove-duplicates-from-sorted-list/javascript-solution) |
+| 0141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [JavaScript](./0001-0500/0141-linked-list-cycle/javascript-solution) |
 | 0144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | [JavaScript](./0001-0500/0144-binary-tree-preorder-traversal/javascript-solution) |
 | 0206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [JavaScript](./0001-0500/0237-delete-node-in-a-linked-list/javascript-solution) |
 | 0237 | [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/) | [JavaScript](./0001-0500/0237-delete-node-in-a-linked-list/javascript-solution) |
