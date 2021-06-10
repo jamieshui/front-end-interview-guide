@@ -4,6 +4,7 @@
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | 0001 | [Two Sum](https://leetcode.com/problems/two-sum/)            | [JavaScript](./0001-0500/0001-two-sum/javascript-solution)   |
 | 0002 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [JavaScript](./0001-0500/0002-add-two-numbers/javascript-solution) |
+| 0003 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [JavaScript](./0001-0500/0003-longest-substring-without-repeating-characters/javascript-solution) |
 | 0020 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [JavaScript](./0001-0500/0020-valid-parentheses/javascript-solution) |
 | 0083 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [JavaScript](./0001-0500/0083-remove-duplicates-from-sorted-list/javascript-solution) |
 | 0141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [JavaScript](./0001-0500/0141-linked-list-cycle/javascript-solution) |
