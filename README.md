@@ -8,6 +8,7 @@
 | 0020 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [JavaScript](./0001-0500/0020-valid-parentheses/javascript-solution) |
 | 0076 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | [JavaScript](./0001-0500/0076-minimum-window-substring/javascript-solution) |
 | 0083 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [JavaScript](./0001-0500/0083-remove-duplicates-from-sorted-list/javascript-solution) |
+| 0104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [JavaScript](./0001-0500/0104-maximum-depth-of-binary-tree/javascript-solution) |
 | 0141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [JavaScript](./0001-0500/0141-linked-list-cycle/javascript-solution) |
 | 0144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | [JavaScript](./0001-0500/0144-binary-tree-preorder-traversal/javascript-solution) |
 | 0206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [JavaScript](./0001-0500/0237-delete-node-in-a-linked-list/javascript-solution) |
