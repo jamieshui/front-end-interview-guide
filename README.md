@@ -6,6 +6,7 @@
 | 0002 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [JavaScript](./0001-0500/0002-add-two-numbers/javascript-solution) |
 | 0003 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [JavaScript](./0001-0500/0003-longest-substring-without-repeating-characters/javascript-solution) |
 | 0020 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [JavaScript](./0001-0500/0020-valid-parentheses/javascript-solution) |
+| 0023 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [JavaScript](./0001-0500/0023-merge-k-sorted-lists/javascript-solution) |
 | 0065 | [Valid Number](https://leetcode.com/problems/valid-number/)  | [JavaScript](./0001-0500/0065-valid-number/javascript-solution) |
 | 0076 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | [JavaScript](./0001-0500/0076-minimum-window-substring/javascript-solution) |
 | 0083 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [JavaScript](./0001-0500/0083-remove-duplicates-from-sorted-list/javascript-solution) |
