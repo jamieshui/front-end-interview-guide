@@ -1,7 +1,7 @@
 /**
- * 解法一：（迭代版）二分搜索法
+ * 解法二：递归版二分（分治法）
  * 
- * 时间复杂度：O(logn) 空间复杂度：O(1)
+ * 时间复杂度：O(logn) 空间复杂度：O(logn)
  */
 
 /** 
@@ -18,17 +18,17 @@
  * @return {number}
  */
  var guessNumber = function(n) {
-    let left = 1;
-    let right = n;
-    while (left <= right) {
-        let mid = Math.floor((left + right) / 2);
-        let res = guess(mid);
+    const rec = (low, high) => {
+        if (low > high) { return; }
+        const mid = Math.floor((low + high) / 2);
+        const res = guess(mid);
         if (res === 0) {
             return mid;
         } else if (res === 1) {
-            left = mid + 1;
+            return rec(mid + 1, high);
         } else {
-            right = mid - 1;
+            return rec(low, mid - 1);
         }
-    }
+    };
+    return rec(1, n);
 };
