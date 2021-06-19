@@ -1,7 +1,7 @@
 git add -A
 
 # 修改具体题目编号
-git commit -m ":adhesive_bandage: 0226 revised "
+git commit -m ":memo: 0101 solved "
 
 git config --global http.sslVerify "false"
 git config --global --unset http.proxy
