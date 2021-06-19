@@ -21,6 +21,7 @@
 | 0144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | [JavaScript](./0001-0500/0144-binary-tree-preorder-traversal/javascript-solution) |
 | 0206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [JavaScript](./0001-0500/0237-delete-node-in-a-linked-list/javascript-solution) |
 | 0215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [JavaScript](./0001-0500/0215-kth-largest-element-in-an-array/javascript-solution) |
+| 0226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [JavaScript](./0001-0500/0226-invert-binary-tree/javascript-solution) |
 | 0237 | [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/) | [JavaScript](./0001-0500/0237-delete-node-in-a-linked-list/javascript-solution) |
 | 0347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [JavaScript](./0001-0500/0347-top-k-frequent-elements/javascript-solution) |
 | 0349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | [JavaScript](./0001-0500/0349-intersection-of-two-arrays/javascript-solution) |
