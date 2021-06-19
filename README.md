@@ -12,6 +12,7 @@
 | 0076 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | [JavaScript](./0001-0500/0076-minimum-window-substring/javascript-solution) |
 | 0083 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [JavaScript](./0001-0500/0083-remove-duplicates-from-sorted-list/javascript-solution) |
 | 0094 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [JavaScript](./0001-0500/0094-binary-tree-inorder-traversal/javascript-solution) |
+| 0100 | [Same Tree](https://leetcode.com/problems/same-tree/)        | [JavaScript](./0001-0500/0100-same-tree/javascript-solution) |
 | 0102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [JavaScript](./0001-0500/0102-binary-tree-level-order-traversal/javascript-solution) |
 | 0104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [JavaScript](./0001-0500/0104-maximum-depth-of-binary-tree/javascript-solution) |
 | 0111 | [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) | [JavaScript](./0001-0500/0111-minimum-depth-of-binary-tree/javascript-solution) |
