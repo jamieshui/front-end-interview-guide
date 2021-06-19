@@ -22,6 +22,7 @@
 | 0133 | [Clone Graph](https://leetcode.com/problems/clone-graph/)    | [JavaScript](./0001-0500/0133-clone-graph/javascript-solution) |
 | 0141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [JavaScript](./0001-0500/0141-linked-list-cycle/javascript-solution) |
 | 0144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | [JavaScript](./0001-0500/0144-binary-tree-preorder-traversal/javascript-solution) |
+| 0198 | [House Robber](https://leetcode.com/problems/house-robber/)  | [JavaScript](./0001-0500/0198-house-robber/javascript-solution) |
 | 0206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [JavaScript](./0001-0500/0237-delete-node-in-a-linked-list/javascript-solution) |
 | 0215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [JavaScript](./0001-0500/0215-kth-largest-element-in-an-array/javascript-solution) |
 | 0226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [JavaScript](./0001-0500/0226-invert-binary-tree/javascript-solution) |
