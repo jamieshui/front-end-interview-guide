@@ -24,6 +24,7 @@
 | 0237 | [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/) | [JavaScript](./0001-0500/0237-delete-node-in-a-linked-list/javascript-solution) |
 | 0347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [JavaScript](./0001-0500/0347-top-k-frequent-elements/javascript-solution) |
 | 0349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | [JavaScript](./0001-0500/0349-intersection-of-two-arrays/javascript-solution) |
+| 0374 | [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) | [JavaScript](./0001-0500/0374-guess-number-higher-or-lower/javascript-solution) |
 | 0417 | [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) | [JavaScript](./0001-0500/0417-pacific-atlantic-water-flow/javascript-solution) |
 | 0933 | [Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/) | [JavaScript](./0501-1000/0933-number-of-recent-calls/javascript-solution) |
 
