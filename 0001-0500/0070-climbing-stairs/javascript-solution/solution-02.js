@@ -10,10 +10,10 @@
  */
  var climbStairs = function(n) {
     if (n < 2) { return 1; }
-    dp0 = 1;
-    dp1 = 1;
+    let dp0 = 1;
+    let dp1 = 1;
     for (let i = 2; i <= n; i++) {
-        let tmp = dp0;
+        const tmp = dp0;
         dp0 = dp1;
         dp1 = dp1 + tmp;
     }
