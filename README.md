@@ -31,5 +31,6 @@
 | 0349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | [JavaScript](./0001-0500/0349-intersection-of-two-arrays/javascript-solution) |
 | 0374 | [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) | [JavaScript](./0001-0500/0374-guess-number-higher-or-lower/javascript-solution) |
 | 0417 | [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) | [JavaScript](./0001-0500/0417-pacific-atlantic-water-flow/javascript-solution) |
+| 0455 | [Assign Cookies](https://leetcode.com/problems/assign-cookies/) | [JavaScript](./0001-0500/0455-assign-cookies/javascript-solution) |
 | 0933 | [Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/) | [JavaScript](./0501-1000/0933-number-of-recent-calls/javascript-solution) |
 
