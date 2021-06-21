@@ -9,6 +9,7 @@
 | 0021 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [JavaScript](./0001-0500/0021-merge-two-sorted-lists/javascript-solution) |
 | 0023 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [JavaScript](./0001-0500/0023-merge-k-sorted-lists/javascript-solution) |
 | 0046 | [Permutations](https://leetcode.com/problems/permutations/)  | [JavaScript](./0001-0500/0046-permutations/javascript-solution) |
+| 0047 | [Permutations II](https://leetcode.com/problems/permutations-ii/) | [JavaScript](./0001-0500/0047-permutations-ii/javascript-solution) |
 | 0065 | [Valid Number](https://leetcode.com/problems/valid-number/)  | [JavaScript](./0001-0500/0065-valid-number/javascript-solution) |
 | 0070 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [JavaScript](./0001-0500/0070-climbing-stairs/javascript-solution) |
 | 0076 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | [JavaScript](./0001-0500/0076-minimum-window-substring/javascript-solution) |

@@ -1,5 +1,5 @@
 /**
- * 解法一：回溯算法
+ * 解法一：回溯算法 
  */
 /**
  * @param {number[]} nums
@@ -7,7 +7,7 @@
  */
  var permuteUnique = function(nums) {
     const res = [];
-    const used = []; // todo
+    const used = [];
     nums.sort((a, b) => a - b);
     const backtrack = (path) => {
         if (path.length === nums.length) {
