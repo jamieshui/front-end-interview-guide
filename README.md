@@ -13,6 +13,7 @@
 | 0065 | [Valid Number](https://leetcode.com/problems/valid-number/)  | [JavaScript](./0001-0500/0065-valid-number/javascript-solution) |
 | 0070 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [JavaScript](./0001-0500/0070-climbing-stairs/javascript-solution) |
 | 0076 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | [JavaScript](./0001-0500/0076-minimum-window-substring/javascript-solution) |
+| 0077 | [Combinations](https://leetcode.com/problems/combinations/)  | [JavaScript](./0001-0500/0077-combinations/javascript-solution) |
 | 0078 | [Subsets](https://leetcode.com/problems/subsets/)            | [JavaScript](./0001-0500/0078-subsets/javascript-solution)   |
 | 0083 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [JavaScript](./0001-0500/0083-remove-duplicates-from-sorted-list/javascript-solution) |
 | 0094 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [JavaScript](./0001-0500/0094-binary-tree-inorder-traversal/javascript-solution) |
