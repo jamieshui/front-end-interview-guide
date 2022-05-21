@@ -1,6 +1,7 @@
 /**
  * 解法一：迭代
  * 
+ * - 双指针
  * 时间复杂度：O(n) 空间复杂度：O(1)
  */
 
@@ -16,7 +17,7 @@
  * @return {ListNode}
  */
  var reverseList = function(head) {
-    if (!head) return [];
+    if (!head || !head.next) return head;
     let p1 = null, p2 = head;
     while (p2) {
         let tmp = p2.next;
