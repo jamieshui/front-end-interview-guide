@@ -16,13 +16,9 @@
  * @return {ListNode}
  */
  var reverseList = function(head) {
-    if (!head) return null;
-    let p1 = null, p2 = head;
-    while (p2) {
-        let tmp = p2.next;
-        p2.next = p1;
-        p1 = p2;
-        p2 = tmp;
-    }
-    return p1;
+    if (!head || !head.next) return head;
+    const newHead = reverseList(head.next);
+    head.next.next = head;
+    head.next = null;
+    return newHead;
 };
