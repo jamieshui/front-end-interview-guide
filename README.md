@@ -41,5 +41,6 @@
 | 0394 | [Decode String](https://leetcode.com/problems/decode-string/) | [JavaScript](./0001-0500/0394-decode-string/javascript-solution) |
 | 0417 | [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) | [JavaScript](./0001-0500/0417-pacific-atlantic-water-flow/javascript-solution) |
 | 0455 | [Assign Cookies](https://leetcode.com/problems/assign-cookies/) | [JavaScript](./0001-0500/0455-assign-cookies/javascript-solution) |
+| 0739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | [JavaScript](./0501-1000/0739-daily-temperatures/javascript-solution) |
 | 0933 | [Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/) | [JavaScript](./0501-1000/0933-number-of-recent-calls/javascript-solution) |
 
