@@ -18,6 +18,7 @@
 | 0078 | [Subsets](https://leetcode.com/problems/subsets/)            | [JavaScript](./0001-0500/0078-subsets/javascript-solution)   |
 | 0083 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [JavaScript](./0001-0500/0083-remove-duplicates-from-sorted-list/javascript-solution) |
 | 0084 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [JavaScript](./0001-0500/0084-largest-rectangle-in-histogram/javascript-solution) |
+| 0085 | [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) | [JavaScript](./0001-0500/0085-maximal-rectangle/javascript-solution) |
 | 0094 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [JavaScript](./0001-0500/0094-binary-tree-inorder-traversal/javascript-solution) |
 | 0100 | [Same Tree](https://leetcode.com/problems/same-tree/)        | [JavaScript](./0001-0500/0100-same-tree/javascript-solution) |
 | 0101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | [JavaScript](./0001-0500/0101-symmetric-tree/javascript-solution) |
